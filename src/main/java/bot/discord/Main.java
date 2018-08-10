@@ -1,5 +1,6 @@
 package bot.discord;
 
+import bot.discord.commands.DiceCommand;
 import bot.discord.commands.WhatToPlayCommand;
 import com.jagrosh.jdautilities.command.CommandClientBuilder;
 import com.jagrosh.jdautilities.commons.waiter.EventWaiter;
@@ -58,6 +59,9 @@ public class Main {
                 new WhatToPlayCommand(),
                 // command to check bot latency
                 new PingCommand(),
+
+                // command to roll dice
+                new DiceCommand(),
 
                 // command to shut off the bot
                 new ShutdownCommand());

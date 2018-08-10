@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b203bb6a-cd0e-4e05-ab7f-a610cbf09805" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bot/discord/commands/WhatToPlayCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/token.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bot/discord/DnDDice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bot/discord/commands/DiceCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bot/discord/DnDCharacterRandomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bot/discord/DnDCharacterRandomizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bot/discord/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bot/discord/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/token.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bot/discord/DnDCharacterRandomizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bot/discord/DnDCharacterRandomizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bot/discord/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bot/discord/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bot/discord/Std5eBackgrounds.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bot/discord/Std5eBackgrounds.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bot/discord/Std5eClasses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bot/discord/Std5eClasses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bot/discord/Std5eRaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bot/discord/Std5eRaces.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/token.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DnDCharacterRandomizeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DnDCharacterRandomizeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/token.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/token.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bot/discord/commands/WhatToPlayCommand.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,31 +28,31 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="2737" />
-          <entry key="txt" value="9" />
+          <entry key="java" value="3584" />
+          <entry key="txt" value="29" />
           <entry key="xml" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2737" />
-          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="JAVA" value="3584" />
+          <entry key="PLAIN_TEXT" value="36" />
           <entry key="XML" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="12" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="16" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Procfile" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="12" />
-          <entry key="txt" value="1" />
+          <entry key="java" value="16" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -74,11 +64,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/bot/discord/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="362">
-                  <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+                <state relative-caret-position="498">
+                  <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -86,14 +76,44 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/bot/discord/commands/WhatToPlayCommand.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/bot/discord/commands/DiceCommand.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+                <state relative-caret-position="408">
+                  <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/bot/discord/DnDDice.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/bot/discord/commands/WhatToPlayCommand.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="46" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/token.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
                 </state>
               </provider>
             </entry>
@@ -105,8 +125,29 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/bot/discord/DnDCharacterRandomizer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/bot/discord/DnDDice.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/bot/discord/commands/WhatToPlayCommand.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="43" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="46" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -140,10 +181,12 @@
         <option value="$PROJECT_DIR$/src/main/java/bot/discord/ReadyListener.java" />
         <option value="$PROJECT_DIR$/src/main/resources/token.txt" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/token.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/bot/discord/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/bot/discord/DnDCharacterRandomizer.java" />
         <option value="$PROJECT_DIR$/src/main/java/bot/discord/commands/WhatToPlayCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/token.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/bot/discord/commands/DiceCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bot/discord/DnDDice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bot/discord/Main.java" />
       </list>
     </option>
   </component>
@@ -255,7 +298,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533933036761" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533939975178" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
@@ -361,7 +404,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533907699666</updated>
-      <workItem from="1533907701194" duration="23255000" />
+      <workItem from="1533907701194" duration="28040000" />
     </task>
     <servers />
   </component>
@@ -389,10 +432,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23255000" />
+    <option name="totallyTimeSpent" value="28040000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -400,7 +443,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1444563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1444563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32952183" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -409,7 +452,7 @@
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50053304" side_tool="true" weight="0.32952183" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.24220374" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.24220374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -483,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/token.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -538,10 +574,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bot/discord/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/token.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bot/discord/commands/DiceCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bot/discord/commands/WhatToPlayCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -550,15 +603,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bot/discord/DnDCharacterRandomizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bot/discord/commands/WhatToPlayCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bot/discord/DnDDice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bot/discord/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
