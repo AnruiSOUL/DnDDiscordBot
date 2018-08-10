@@ -1,1 +1,0 @@
-web: java -jar 1.0-SNAPSHOT\DnDDiscordBot-1.0-SNAPSHOT.jar

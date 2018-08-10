@@ -9,9 +9,9 @@ public class DnDCharacterRandomizer {
         int randomClazz = random.nextInt(description.getEnumConstants().length);
         return description.getEnumConstants()[randomClazz];
     }
-    public String characterRandomized(){
+    public static String characterRandomized(){
 
-        return  "Play a " + randomize(Std5eRaces.class) + " " + randomize(Std5eClasses.class) + " who is a "
+        return  "play a " + randomize(Std5eRaces.class) + " " + randomize(Std5eClasses.class) + " who is a "
                 + randomize(Std5eBackgrounds.class);
     }
 
