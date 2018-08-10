@@ -1,3 +1,5 @@
+package bot.discord;
+
 import java.security.SecureRandom;
 
 public class DnDCharacterRandomizer {
